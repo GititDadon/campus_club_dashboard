@@ -13,3 +13,25 @@
 /* REQUIRED BY THE TESTS: blue background */
 .info {
 }
+
+.notice {
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin: 16px 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid transparent;
+}
+
+.warning {
+  background-color: #fef3c7;
+  color: #92400e;
+  border-color: #fcd34d;
+}
+
+.info {
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-color: #93c5fd;
+}

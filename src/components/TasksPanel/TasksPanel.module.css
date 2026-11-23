@@ -1,35 +1,69 @@
-/* TasksPanel styles - add your own styling to these classes (you can add more classes too).
-   Use them in TasksPanel.jsx: className={styles.tasksPanel}
-   Don't delete the classes marked "REQUIRED BY THE TESTS". */
-
-/* the whole panel */
 .tasksPanel {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
 }
 
-/* the title with the member name */
 .title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
 }
 
-/* the list of tasks */
 .tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 16px;
 }
 
-/* one task */
 .task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 16px;
+  color: #374151;
 }
 
-/* a done task (e.g. line-through) */
 .done {
+  text-decoration: line-through;
+  color: #9ca3af;
 }
 
-/* the messages "Select a member..." / "No tasks yet" */
 .empty {
+  color: #6b7280;
+  margin-top: 16px;
 }
 
-/* bonus: the done/total counter */
 .counter {
+  color: #6b7280;
+  margin-bottom: 16px;
 }
 
-/* bonus: the quick add form */
 .quickAdd {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.quickAdd input {
+  flex: 1;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 16px;
+}
+
+.quickAdd button {
+  border: none;
+  background: #0f172a;
+  color: white;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 16px;
+  cursor: pointer;
 }
